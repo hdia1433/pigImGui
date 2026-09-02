@@ -32,18 +32,6 @@ void MainMenu::render()
     ImGui::PushFont(buttonFont);
     startButton.render();
     quitButton.render();
-    // ImVec2 buttonSize(200 * eng::Globals::scale, 50 * eng::Globals::scale);
-    // ImGui::SetCursorPosX((ImGui::GetWindowSize().x - buttonSize.x) / 2);
-    // if(ImGui::Button("Start", buttonSize))
-    // {
-    //
-    // }
-    //
-    // ImGui::SetCursorPosX((ImGui::GetWindowSize().x - buttonSize.x) / 2);
-    // if(ImGui::Button("Quit", buttonSize))
-    // {
-    //     eng::Globals::running = false;
-    // }
     ImGui::PopFont();
     ImGui::PopStyleVar();
 }
