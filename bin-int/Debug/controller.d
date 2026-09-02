@@ -925,7 +925,9 @@ bin-int/Debug/controller.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/search.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/not_fn.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_back.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_front.h
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_front.h \
+  src/headers/mainGame.hpp src/headers/sceneName.hpp \
+  src/headers/sessionCreator.hpp
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
 /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui.h:
 /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imconfig.h:
@@ -1854,3 +1856,6 @@ src/headers/mainMenu.hpp:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/not_fn.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_back.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_front.h:
+src/headers/mainGame.hpp:
+src/headers/sceneName.hpp:
+src/headers/sessionCreator.hpp:

@@ -1,5 +1,8 @@
 #include "controller.hpp"
 #include "mainMenu.hpp"
+#include "mainGame.hpp"
+#include "sceneName.hpp"
+#include "sessionCreator.hpp"
 
 Controller::Controller():
     app({800, 800})
@@ -11,7 +14,9 @@ Controller::Controller():
     eng::Resources::setRoot(eng::ProjectType::app);
 #endif
 
-    app.addScene("MainMenu", new MainMenu);
+    app.addScene(SceneName::MainMenu, new MainMenu);
+    app.addScene(SceneName::SessionCreator, new SessionCreator);
+    app.addScene(SceneName::MainGame, new MainGame);
 }
 
 void Controller::start()

@@ -1,4 +1,5 @@
 #include "mainMenu.hpp"
+#include "sceneName.hpp"
 #include <CppEngine/imgui-SFML.h>
 
 MainMenu::MainMenu():
@@ -38,7 +39,7 @@ void MainMenu::render()
 
 void MainMenu::onStart()
 {
-
+    eng::Globals::currentScene = SceneName::SessionCreator;
 }
 
 void MainMenu::onQuit()

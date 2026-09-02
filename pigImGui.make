@@ -92,12 +92,18 @@ OBJECTS :=
 
 GENERATED += $(OBJDIR)/controller.o
 GENERATED += $(OBJDIR)/main.o
+GENERATED += $(OBJDIR)/mainGame.o
 GENERATED += $(OBJDIR)/mainMenu.o
 GENERATED += $(OBJDIR)/pch.o
+GENERATED += $(OBJDIR)/sceneName.o
+GENERATED += $(OBJDIR)/sessionCreator.o
 OBJECTS += $(OBJDIR)/controller.o
 OBJECTS += $(OBJDIR)/main.o
+OBJECTS += $(OBJDIR)/mainGame.o
 OBJECTS += $(OBJDIR)/mainMenu.o
 OBJECTS += $(OBJDIR)/pch.o
+OBJECTS += $(OBJDIR)/sceneName.o
+OBJECTS += $(OBJDIR)/sessionCreator.o
 
 # Rules
 # #############################################
@@ -170,7 +176,16 @@ $(OBJDIR)/main.o: src/controller/main.cpp
 $(OBJDIR)/pch.o: src/controller/pch.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) -include $(PCH_PLACEHOLDER) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
+$(OBJDIR)/sceneName.o: src/model/sceneName.cpp
+	@echo "$(notdir $<)"
+	$(SILENT) $(CXX) -include $(PCH_PLACEHOLDER) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
+$(OBJDIR)/mainGame.o: src/model/scenes/mainGame.cpp
+	@echo "$(notdir $<)"
+	$(SILENT) $(CXX) -include $(PCH_PLACEHOLDER) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
 $(OBJDIR)/mainMenu.o: src/model/scenes/mainMenu.cpp
+	@echo "$(notdir $<)"
+	$(SILENT) $(CXX) -include $(PCH_PLACEHOLDER) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
+$(OBJDIR)/sessionCreator.o: src/model/scenes/sessionCreator.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) -include $(PCH_PLACEHOLDER) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
 
