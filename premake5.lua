@@ -53,16 +53,17 @@ project "pigImGui"
     filter "configurations:Release"
         defines { "NDEBUG" }
         optimize "On"
-    postbuildcommands {
-        "mkdir -p bin/%{cfg.buildcfg}/pigImGui.app/Contents/MacOS",
-        "mkdir -p bin/%{cfg.buildcfg}/pigImGui.app/Contents/Resources",
-        "cp bin/%{cfg.buildcfg}/pigImGui bin/%{cfg.buildcfg}/pigImGui.app/Contents/MacOS/pigImGui",
-        "cp Info.plist bin/%{cfg.buildcfg}/pigImGui.app/Contents/Info.plist",
-        "rm -rf bin/%{cfg.buildcfg}/pigImGui.app/Contents/Frameworks",
-        "mkdir -p bin/%{cfg.buildcfg}/pigImGui.app/Contents/Frameworks",
-        "cp /opt/homebrew/Cellar/sfml/3.0.1/lib/libsfml-graphics.3.0.1.dylib bin/%{cfg.buildcfg}/pigImGui.app/Contents/Frameworks/",
-        "cp /opt/homebrew/Cellar/sfml/3.0.1/lib/libsfml-window.3.0.1.dylib bin/%{cfg.buildcfg}/pigImGui.app/Contents/Frameworks/",
-        "cp /opt/homebrew/Cellar/sfml/3.0.1/lib/libsfml-system.3.0.1.dylib bin/%{cfg.buildcfg}/pigImGui.app/Contents/Frameworks/",
-    }
+        postbuildcommands {
+            "mkdir -p bin/%{cfg.buildcfg}/pigImGui.app/Contents/MacOS",
+            "mkdir -p bin/%{cfg.buildcfg}/pigImGui.app/Contents/Resources",
+            "cp bin/%{cfg.buildcfg}/pigImGui bin/%{cfg.buildcfg}/pigImGui.app/Contents/MacOS/pigImGui",
+            "cp Info.plist bin/%{cfg.buildcfg}/pigImGui.app/Contents/Info.plist",
+            "cp -R resources/* bin/%{cfg.buildcfg}/pigImGui.app/Contents/Resources/",
+            "rm -rf bin/%{cfg.buildcfg}/pigImGui.app/Contents/Frameworks",
+            "mkdir -p bin/%{cfg.buildcfg}/pigImGui.app/Contents/Frameworks",
+            "cp /opt/homebrew/Cellar/sfml/3.0.1/lib/libsfml-graphics.3.0.1.dylib bin/%{cfg.buildcfg}/pigImGui.app/Contents/Frameworks/",
+            "cp /opt/homebrew/Cellar/sfml/3.0.1/lib/libsfml-window.3.0.1.dylib bin/%{cfg.buildcfg}/pigImGui.app/Contents/Frameworks/",
+            "cp /opt/homebrew/Cellar/sfml/3.0.1/lib/libsfml-system.3.0.1.dylib bin/%{cfg.buildcfg}/pigImGui.app/Contents/Frameworks/",
+        }
 
     filter {}

@@ -70,6 +70,7 @@ define POSTBUILDCMDS
 	mkdir -p bin/Release/pigImGui.app/Contents/Resources
 	cp bin/Release/pigImGui bin/Release/pigImGui.app/Contents/MacOS/pigImGui
 	cp Info.plist bin/Release/pigImGui.app/Contents/Info.plist
+	cp -R resources/* bin/Release/pigImGui.app/Contents/Resources/
 	rm -rf bin/Release/pigImGui.app/Contents/Frameworks
 	mkdir -p bin/Release/pigImGui.app/Contents/Frameworks
 	cp /opt/homebrew/Cellar/sfml/3.0.1/lib/libsfml-graphics.3.0.1.dylib bin/Release/pigImGui.app/Contents/Frameworks/
@@ -91,9 +92,11 @@ OBJECTS :=
 
 GENERATED += $(OBJDIR)/controller.o
 GENERATED += $(OBJDIR)/main.o
+GENERATED += $(OBJDIR)/mainMenu.o
 GENERATED += $(OBJDIR)/pch.o
 OBJECTS += $(OBJDIR)/controller.o
 OBJECTS += $(OBJDIR)/main.o
+OBJECTS += $(OBJDIR)/mainMenu.o
 OBJECTS += $(OBJDIR)/pch.o
 
 # Rules
@@ -165,6 +168,9 @@ $(OBJDIR)/main.o: src/controller/main.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) -include $(PCH_PLACEHOLDER) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
 $(OBJDIR)/pch.o: src/controller/pch.cpp
+	@echo "$(notdir $<)"
+	$(SILENT) $(CXX) -include $(PCH_PLACEHOLDER) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
+$(OBJDIR)/mainMenu.o: src/model/scenes/mainMenu.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) -include $(PCH_PLACEHOLDER) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
 

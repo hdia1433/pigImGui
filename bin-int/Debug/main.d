@@ -1,6 +1,88 @@
 bin-int/Debug/main.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json \
   /Users/heberdiamond/cppProjects/pigImGui/src/headers/pch.hpp \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui.h \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imconfig.h \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/globals.hpp \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/resource.hpp \
+  /opt/homebrew/include/SFML/Graphics.hpp \
+  /opt/homebrew/include/SFML/Graphics/BlendMode.hpp \
+  /opt/homebrew/include/SFML/Graphics/Export.hpp \
+  /opt/homebrew/include/SFML/Config.hpp \
+  /opt/homebrew/include/SFML/Graphics/CircleShape.hpp \
+  /opt/homebrew/include/SFML/Graphics/Shape.hpp \
+  /opt/homebrew/include/SFML/Graphics/Color.hpp \
+  /opt/homebrew/include/SFML/Graphics/Color.inl \
+  /opt/homebrew/include/SFML/Graphics/Drawable.hpp \
+  /opt/homebrew/include/SFML/Graphics/PrimitiveType.hpp \
+  /opt/homebrew/include/SFML/Graphics/Rect.hpp \
+  /opt/homebrew/include/SFML/System/Vector2.hpp \
+  /opt/homebrew/include/SFML/System/Export.hpp \
+  /opt/homebrew/include/SFML/System/Angle.hpp \
+  /opt/homebrew/include/SFML/System/Angle.inl \
+  /opt/homebrew/include/SFML/System/Vector2.inl \
+  /opt/homebrew/include/SFML/Graphics/Rect.inl \
+  /opt/homebrew/include/SFML/Graphics/RenderStates.hpp \
+  /opt/homebrew/include/SFML/Graphics/CoordinateType.hpp \
+  /opt/homebrew/include/SFML/Graphics/StencilMode.hpp \
+  /opt/homebrew/include/SFML/Graphics/Transform.hpp \
+  /opt/homebrew/include/SFML/Graphics/Transform.inl \
+  /opt/homebrew/include/SFML/Graphics/Transformable.hpp \
+  /opt/homebrew/include/SFML/Graphics/VertexArray.hpp \
+  /opt/homebrew/include/SFML/Graphics/Vertex.hpp \
+  /opt/homebrew/include/SFML/Graphics/ConvexShape.hpp \
+  /opt/homebrew/include/SFML/Graphics/Font.hpp \
+  /opt/homebrew/include/SFML/Graphics/Glyph.hpp \
+  /opt/homebrew/include/SFML/Graphics/Texture.hpp \
+  /opt/homebrew/include/SFML/Window/GlResource.hpp \
+  /opt/homebrew/include/SFML/Window/Export.hpp \
+  /opt/homebrew/include/SFML/Graphics/Image.hpp \
+  /opt/homebrew/include/SFML/Graphics/RectangleShape.hpp \
+  /opt/homebrew/include/SFML/Graphics/RenderTarget.hpp \
+  /opt/homebrew/include/SFML/Graphics/View.hpp \
+  /opt/homebrew/include/SFML/Graphics/RenderTexture.hpp \
+  /opt/homebrew/include/SFML/Window/ContextSettings.hpp \
+  /opt/homebrew/include/SFML/Graphics/RenderWindow.hpp \
+  /opt/homebrew/include/SFML/Window/VideoMode.hpp \
+  /opt/homebrew/include/SFML/Window/Window.hpp \
+  /opt/homebrew/include/SFML/Window/WindowBase.hpp \
+  /opt/homebrew/include/SFML/Window/Vulkan.hpp \
+  /opt/homebrew/include/SFML/Window/WindowEnums.hpp \
+  /opt/homebrew/include/SFML/Window/WindowHandle.hpp \
+  /opt/homebrew/include/SFML/System/Time.hpp \
+  /opt/homebrew/include/SFML/System/Time.inl \
+  /opt/homebrew/include/SFML/Window/WindowBase.inl \
+  /opt/homebrew/include/SFML/Window/Event.hpp \
+  /opt/homebrew/include/SFML/Window/Joystick.hpp \
+  /opt/homebrew/include/SFML/System/String.hpp \
+  /opt/homebrew/include/SFML/System/Utf.hpp \
+  /opt/homebrew/include/SFML/System/Utf.inl \
+  /opt/homebrew/include/SFML/System/String.inl \
+  /opt/homebrew/include/SFML/Window/Keyboard.hpp \
+  /opt/homebrew/include/SFML/Window/Mouse.hpp \
+  /opt/homebrew/include/SFML/Window/Sensor.hpp \
+  /opt/homebrew/include/SFML/System/Vector3.hpp \
+  /opt/homebrew/include/SFML/System/Vector3.inl \
+  /opt/homebrew/include/SFML/Window/Event.inl \
+  /opt/homebrew/include/SFML/System/Clock.hpp \
+  /opt/homebrew/include/SFML/Graphics/Shader.hpp \
+  /opt/homebrew/include/SFML/Graphics/Glsl.hpp \
+  /opt/homebrew/include/SFML/Graphics/Glsl.inl \
+  /opt/homebrew/include/SFML/Graphics/Sprite.hpp \
+  /opt/homebrew/include/SFML/Graphics/Text.hpp \
+  /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp \
+  /opt/homebrew/include/SFML/Window.hpp \
+  /opt/homebrew/include/SFML/Window/Clipboard.hpp \
+  /opt/homebrew/include/SFML/Window/Context.hpp \
+  /opt/homebrew/include/SFML/Window/Cursor.hpp \
+  /opt/homebrew/include/SFML/Window/Touch.hpp \
+  /opt/homebrew/include/SFML/System.hpp \
+  /opt/homebrew/include/SFML/System/Err.hpp \
+  /opt/homebrew/include/SFML/System/Exception.hpp \
+  /opt/homebrew/include/SFML/System/FileInputStream.hpp \
+  /opt/homebrew/include/SFML/System/InputStream.hpp \
+  /opt/homebrew/include/SFML/System/MemoryInputStream.hpp \
+  /opt/homebrew/include/SFML/System/Sleep.hpp \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/string \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/max.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/comp.h \
@@ -618,66 +700,12 @@ bin-int/Debug/main.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__format/formatter_tuple.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/print \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__system_error/throw_system_error.h \
-  src/controller/main.cpp src/headers/controller.hpp \
-  ../cppEngine/include/CppEngine/controller.hpp \
-  /opt/homebrew/include/SFML/Graphics.hpp \
-  /opt/homebrew/include/SFML/Graphics/BlendMode.hpp \
-  /opt/homebrew/include/SFML/Graphics/Export.hpp \
-  /opt/homebrew/include/SFML/Config.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/TargetConditionals.h \
-  /opt/homebrew/include/SFML/Graphics/CircleShape.hpp \
-  /opt/homebrew/include/SFML/Graphics/Shape.hpp \
-  /opt/homebrew/include/SFML/Graphics/Color.hpp \
-  /opt/homebrew/include/SFML/Graphics/Color.inl \
-  /opt/homebrew/include/SFML/Graphics/Drawable.hpp \
-  /opt/homebrew/include/SFML/Graphics/PrimitiveType.hpp \
-  /opt/homebrew/include/SFML/Graphics/Rect.hpp \
-  /opt/homebrew/include/SFML/System/Vector2.hpp \
-  /opt/homebrew/include/SFML/System/Export.hpp \
-  /opt/homebrew/include/SFML/System/Angle.hpp \
-  /opt/homebrew/include/SFML/System/Angle.inl \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/cassert \
+  /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_static_assert.h \
-  /opt/homebrew/include/SFML/System/Vector2.inl \
-  /opt/homebrew/include/SFML/Graphics/Rect.inl \
-  /opt/homebrew/include/SFML/Graphics/RenderStates.hpp \
-  /opt/homebrew/include/SFML/Graphics/CoordinateType.hpp \
-  /opt/homebrew/include/SFML/Graphics/StencilMode.hpp \
-  /opt/homebrew/include/SFML/Graphics/Transform.hpp \
-  /opt/homebrew/include/SFML/Graphics/Transform.inl \
-  /opt/homebrew/include/SFML/Graphics/Transformable.hpp \
-  /opt/homebrew/include/SFML/Graphics/VertexArray.hpp \
-  /opt/homebrew/include/SFML/Graphics/Vertex.hpp \
-  /opt/homebrew/include/SFML/Graphics/ConvexShape.hpp \
-  /opt/homebrew/include/SFML/Graphics/Font.hpp \
-  /opt/homebrew/include/SFML/Graphics/Glyph.hpp \
-  /opt/homebrew/include/SFML/Graphics/Texture.hpp \
-  /opt/homebrew/include/SFML/Window/GlResource.hpp \
-  /opt/homebrew/include/SFML/Window/Export.hpp \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/memory \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/align.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/inout_ptr.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/is_sufficiently_aligned.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/out_ptr.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/raw_storage_iterator.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/shared_ptr.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__atomic/memory_order.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/reference_wrapper.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/weak_result_type.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/allocation_guard.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/allocator_destructor.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/uninitialized_multidimensional_algorithms.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/temporary_buffer.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/unique_temporary_buffer.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__new/global_new_delete.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__new/nothrow_t.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/concepts.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/ranges_construct_at.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/ranges_destroy.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/ranges_uninitialized_algorithms.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/uses_allocator_construction.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/filesystem \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/copy_options.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/directory_entry.h \
@@ -698,6 +726,13 @@ bin-int/Debug/main.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/iomanip \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__locale_dir/money.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__locale_dir/time.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/shared_ptr.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__atomic/memory_order.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/reference_wrapper.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/weak_result_type.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/allocation_guard.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/allocator_destructor.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/uninitialized_multidimensional_algorithms.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/operations.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/perm_options.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/space_info.h \
@@ -706,6 +741,23 @@ bin-int/Debug/main.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/path_iterator.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/u8path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/TargetConditionals.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/cassert \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/memory \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/align.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/inout_ptr.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/is_sufficiently_aligned.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/out_ptr.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/raw_storage_iterator.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/temporary_buffer.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/unique_temporary_buffer.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__new/global_new_delete.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__new/nothrow_t.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/concepts.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/ranges_construct_at.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/ranges_destroy.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/ranges_uninitialized_algorithms.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/uses_allocator_construction.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/unordered_map \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/is_permutation.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__hash_table \
@@ -716,20 +768,6 @@ bin-int/Debug/main.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__iterator/erase_if_container.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__iterator/ranges_iterator_traits.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__node_handle \
-  /opt/homebrew/include/SFML/Graphics/Image.hpp \
-  /opt/homebrew/include/SFML/Graphics/RectangleShape.hpp \
-  /opt/homebrew/include/SFML/Graphics/RenderTarget.hpp \
-  /opt/homebrew/include/SFML/Graphics/View.hpp \
-  /opt/homebrew/include/SFML/Graphics/RenderTexture.hpp \
-  /opt/homebrew/include/SFML/Window/ContextSettings.hpp \
-  /opt/homebrew/include/SFML/Graphics/RenderWindow.hpp \
-  /opt/homebrew/include/SFML/Window/VideoMode.hpp \
-  /opt/homebrew/include/SFML/Window/Window.hpp \
-  /opt/homebrew/include/SFML/Window/WindowBase.hpp \
-  /opt/homebrew/include/SFML/Window/Vulkan.hpp \
-  /opt/homebrew/include/SFML/Window/WindowEnums.hpp \
-  /opt/homebrew/include/SFML/Window/WindowHandle.hpp \
-  /opt/homebrew/include/SFML/System/Time.hpp \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/chrono \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__chrono/high_resolution_clock.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__chrono/steady_clock.h \
@@ -779,12 +817,6 @@ bin-int/Debug/main.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__math/modulo.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__math/remainder.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__math/trigonometric_functions.h \
-  /opt/homebrew/include/SFML/System/Time.inl \
-  /opt/homebrew/include/SFML/Window/WindowBase.inl \
-  /opt/homebrew/include/SFML/Window/Event.hpp \
-  /opt/homebrew/include/SFML/Window/Joystick.hpp \
-  /opt/homebrew/include/SFML/System/String.hpp \
-  /opt/homebrew/include/SFML/System/Utf.hpp \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/locale \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__locale_dir/messages.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/nl_types.h \
@@ -826,8 +858,6 @@ bin-int/Debug/main.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__locale_dir/wbuffer_convert.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__locale_dir/wstring_convert.h \
-  /opt/homebrew/include/SFML/System/Utf.inl \
-  /opt/homebrew/include/SFML/System/String.inl \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/iterator \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__iterator/front_insert_iterator.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__iterator/insert_iterator.h \
@@ -848,11 +878,6 @@ bin-int/Debug/main.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/concepts \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__ranges/rbegin.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__ranges/rend.h \
-  /opt/homebrew/include/SFML/Window/Keyboard.hpp \
-  /opt/homebrew/include/SFML/Window/Mouse.hpp \
-  /opt/homebrew/include/SFML/Window/Sensor.hpp \
-  /opt/homebrew/include/SFML/System/Vector3.hpp \
-  /opt/homebrew/include/SFML/System/Vector3.inl \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/type_traits \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__type_traits/aligned_storage.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__type_traits/aligned_union.h \
@@ -872,39 +897,98 @@ bin-int/Debug/main.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__type_traits/is_aggregate.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__type_traits/is_implicit_lifetime.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__type_traits/reference_converts_from_temporary.h \
-  /opt/homebrew/include/SFML/Window/Event.inl \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/utility \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/rel_ops.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/as_const.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/cmp.h \
-  /opt/homebrew/include/SFML/System/Clock.hpp \
-  /opt/homebrew/include/SFML/Graphics/Shader.hpp \
-  /opt/homebrew/include/SFML/Graphics/Glsl.hpp \
-  /opt/homebrew/include/SFML/Graphics/Glsl.inl \
-  /opt/homebrew/include/SFML/Graphics/Sprite.hpp \
-  /opt/homebrew/include/SFML/Graphics/Text.hpp \
-  /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp \
-  /opt/homebrew/include/SFML/Window.hpp \
-  /opt/homebrew/include/SFML/Window/Clipboard.hpp \
-  /opt/homebrew/include/SFML/Window/Context.hpp \
-  /opt/homebrew/include/SFML/Window/Cursor.hpp \
-  /opt/homebrew/include/SFML/Window/Touch.hpp \
-  /opt/homebrew/include/SFML/System.hpp \
-  /opt/homebrew/include/SFML/System/Err.hpp \
-  /opt/homebrew/include/SFML/System/Exception.hpp \
-  /opt/homebrew/include/SFML/System/FileInputStream.hpp \
-  /opt/homebrew/include/SFML/System/InputStream.hpp \
-  /opt/homebrew/include/SFML/System/MemoryInputStream.hpp \
-  /opt/homebrew/include/SFML/System/Sleep.hpp \
+  src/controller/main.cpp src/headers/controller.hpp \
+  ../cppEngine/include/CppEngine/controller.hpp \
   ../cppEngine/include/CppEngine/imgui.h \
-  ../cppEngine/include/CppEngine/imconfig.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h \
-  /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/stddef.h \
+  ../cppEngine/include/CppEngine/scene.hpp \
   ../cppEngine/include/CppEngine/globals.hpp
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui.h:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imconfig.h:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/globals.hpp:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/resource.hpp:
+/opt/homebrew/include/SFML/Graphics.hpp:
+/opt/homebrew/include/SFML/Graphics/BlendMode.hpp:
+/opt/homebrew/include/SFML/Graphics/Export.hpp:
+/opt/homebrew/include/SFML/Config.hpp:
+/opt/homebrew/include/SFML/Graphics/CircleShape.hpp:
+/opt/homebrew/include/SFML/Graphics/Shape.hpp:
+/opt/homebrew/include/SFML/Graphics/Color.hpp:
+/opt/homebrew/include/SFML/Graphics/Color.inl:
+/opt/homebrew/include/SFML/Graphics/Drawable.hpp:
+/opt/homebrew/include/SFML/Graphics/PrimitiveType.hpp:
+/opt/homebrew/include/SFML/Graphics/Rect.hpp:
+/opt/homebrew/include/SFML/System/Vector2.hpp:
+/opt/homebrew/include/SFML/System/Export.hpp:
+/opt/homebrew/include/SFML/System/Angle.hpp:
+/opt/homebrew/include/SFML/System/Angle.inl:
+/opt/homebrew/include/SFML/System/Vector2.inl:
+/opt/homebrew/include/SFML/Graphics/Rect.inl:
+/opt/homebrew/include/SFML/Graphics/RenderStates.hpp:
+/opt/homebrew/include/SFML/Graphics/CoordinateType.hpp:
+/opt/homebrew/include/SFML/Graphics/StencilMode.hpp:
+/opt/homebrew/include/SFML/Graphics/Transform.hpp:
+/opt/homebrew/include/SFML/Graphics/Transform.inl:
+/opt/homebrew/include/SFML/Graphics/Transformable.hpp:
+/opt/homebrew/include/SFML/Graphics/VertexArray.hpp:
+/opt/homebrew/include/SFML/Graphics/Vertex.hpp:
+/opt/homebrew/include/SFML/Graphics/ConvexShape.hpp:
+/opt/homebrew/include/SFML/Graphics/Font.hpp:
+/opt/homebrew/include/SFML/Graphics/Glyph.hpp:
+/opt/homebrew/include/SFML/Graphics/Texture.hpp:
+/opt/homebrew/include/SFML/Window/GlResource.hpp:
+/opt/homebrew/include/SFML/Window/Export.hpp:
+/opt/homebrew/include/SFML/Graphics/Image.hpp:
+/opt/homebrew/include/SFML/Graphics/RectangleShape.hpp:
+/opt/homebrew/include/SFML/Graphics/RenderTarget.hpp:
+/opt/homebrew/include/SFML/Graphics/View.hpp:
+/opt/homebrew/include/SFML/Graphics/RenderTexture.hpp:
+/opt/homebrew/include/SFML/Window/ContextSettings.hpp:
+/opt/homebrew/include/SFML/Graphics/RenderWindow.hpp:
+/opt/homebrew/include/SFML/Window/VideoMode.hpp:
+/opt/homebrew/include/SFML/Window/Window.hpp:
+/opt/homebrew/include/SFML/Window/WindowBase.hpp:
+/opt/homebrew/include/SFML/Window/Vulkan.hpp:
+/opt/homebrew/include/SFML/Window/WindowEnums.hpp:
+/opt/homebrew/include/SFML/Window/WindowHandle.hpp:
+/opt/homebrew/include/SFML/System/Time.hpp:
+/opt/homebrew/include/SFML/System/Time.inl:
+/opt/homebrew/include/SFML/Window/WindowBase.inl:
+/opt/homebrew/include/SFML/Window/Event.hpp:
+/opt/homebrew/include/SFML/Window/Joystick.hpp:
+/opt/homebrew/include/SFML/System/String.hpp:
+/opt/homebrew/include/SFML/System/Utf.hpp:
+/opt/homebrew/include/SFML/System/Utf.inl:
+/opt/homebrew/include/SFML/System/String.inl:
+/opt/homebrew/include/SFML/Window/Keyboard.hpp:
+/opt/homebrew/include/SFML/Window/Mouse.hpp:
+/opt/homebrew/include/SFML/Window/Sensor.hpp:
+/opt/homebrew/include/SFML/System/Vector3.hpp:
+/opt/homebrew/include/SFML/System/Vector3.inl:
+/opt/homebrew/include/SFML/Window/Event.inl:
+/opt/homebrew/include/SFML/System/Clock.hpp:
+/opt/homebrew/include/SFML/Graphics/Shader.hpp:
+/opt/homebrew/include/SFML/Graphics/Glsl.hpp:
+/opt/homebrew/include/SFML/Graphics/Glsl.inl:
+/opt/homebrew/include/SFML/Graphics/Sprite.hpp:
+/opt/homebrew/include/SFML/Graphics/Text.hpp:
+/opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp:
+/opt/homebrew/include/SFML/Window.hpp:
+/opt/homebrew/include/SFML/Window/Clipboard.hpp:
+/opt/homebrew/include/SFML/Window/Context.hpp:
+/opt/homebrew/include/SFML/Window/Cursor.hpp:
+/opt/homebrew/include/SFML/Window/Touch.hpp:
+/opt/homebrew/include/SFML/System.hpp:
+/opt/homebrew/include/SFML/System/Err.hpp:
+/opt/homebrew/include/SFML/System/Exception.hpp:
+/opt/homebrew/include/SFML/System/FileInputStream.hpp:
+/opt/homebrew/include/SFML/System/InputStream.hpp:
+/opt/homebrew/include/SFML/System/MemoryInputStream.hpp:
+/opt/homebrew/include/SFML/System/Sleep.hpp:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/string:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/max.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/comp.h:
@@ -1522,67 +1606,12 @@ bin-int/Debug/main.o: \
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__format/formatter_tuple.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/print:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__system_error/throw_system_error.h:
-src/controller/main.cpp:
-src/headers/controller.hpp:
-../cppEngine/include/CppEngine/controller.hpp:
-/opt/homebrew/include/SFML/Graphics.hpp:
-/opt/homebrew/include/SFML/Graphics/BlendMode.hpp:
-/opt/homebrew/include/SFML/Graphics/Export.hpp:
-/opt/homebrew/include/SFML/Config.hpp:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/TargetConditionals.h:
-/opt/homebrew/include/SFML/Graphics/CircleShape.hpp:
-/opt/homebrew/include/SFML/Graphics/Shape.hpp:
-/opt/homebrew/include/SFML/Graphics/Color.hpp:
-/opt/homebrew/include/SFML/Graphics/Color.inl:
-/opt/homebrew/include/SFML/Graphics/Drawable.hpp:
-/opt/homebrew/include/SFML/Graphics/PrimitiveType.hpp:
-/opt/homebrew/include/SFML/Graphics/Rect.hpp:
-/opt/homebrew/include/SFML/System/Vector2.hpp:
-/opt/homebrew/include/SFML/System/Export.hpp:
-/opt/homebrew/include/SFML/System/Angle.hpp:
-/opt/homebrew/include/SFML/System/Angle.inl:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/cassert:
+/opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h:
+/opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h:
+/opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_float.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/assert.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_assert.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_static_assert.h:
-/opt/homebrew/include/SFML/System/Vector2.inl:
-/opt/homebrew/include/SFML/Graphics/Rect.inl:
-/opt/homebrew/include/SFML/Graphics/RenderStates.hpp:
-/opt/homebrew/include/SFML/Graphics/CoordinateType.hpp:
-/opt/homebrew/include/SFML/Graphics/StencilMode.hpp:
-/opt/homebrew/include/SFML/Graphics/Transform.hpp:
-/opt/homebrew/include/SFML/Graphics/Transform.inl:
-/opt/homebrew/include/SFML/Graphics/Transformable.hpp:
-/opt/homebrew/include/SFML/Graphics/VertexArray.hpp:
-/opt/homebrew/include/SFML/Graphics/Vertex.hpp:
-/opt/homebrew/include/SFML/Graphics/ConvexShape.hpp:
-/opt/homebrew/include/SFML/Graphics/Font.hpp:
-/opt/homebrew/include/SFML/Graphics/Glyph.hpp:
-/opt/homebrew/include/SFML/Graphics/Texture.hpp:
-/opt/homebrew/include/SFML/Window/GlResource.hpp:
-/opt/homebrew/include/SFML/Window/Export.hpp:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/memory:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/align.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/inout_ptr.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/is_sufficiently_aligned.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/out_ptr.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/raw_storage_iterator.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/shared_ptr.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__atomic/memory_order.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/reference_wrapper.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/weak_result_type.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/allocation_guard.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/allocator_destructor.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/uninitialized_multidimensional_algorithms.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/temporary_buffer.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/unique_temporary_buffer.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__new/global_new_delete.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__new/nothrow_t.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/concepts.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/ranges_construct_at.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/ranges_destroy.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/ranges_uninitialized_algorithms.h:
-/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/uses_allocator_construction.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/filesystem:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/copy_options.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/directory_entry.h:
@@ -1603,6 +1632,13 @@ src/headers/controller.hpp:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/iomanip:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__locale_dir/money.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__locale_dir/time.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/shared_ptr.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__atomic/memory_order.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/reference_wrapper.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/weak_result_type.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/allocation_guard.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/allocator_destructor.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/uninitialized_multidimensional_algorithms.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/operations.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/perm_options.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/space_info.h:
@@ -1611,6 +1647,23 @@ src/headers/controller.hpp:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/path_iterator.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/recursive_directory_iterator.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/u8path.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/TargetConditionals.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/cassert:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/memory:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/align.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/inout_ptr.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/is_sufficiently_aligned.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/out_ptr.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/raw_storage_iterator.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/temporary_buffer.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/unique_temporary_buffer.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__new/global_new_delete.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__new/nothrow_t.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/concepts.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/ranges_construct_at.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/ranges_destroy.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/ranges_uninitialized_algorithms.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__memory/uses_allocator_construction.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/unordered_map:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/is_permutation.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__hash_table:
@@ -1621,20 +1674,6 @@ src/headers/controller.hpp:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__iterator/erase_if_container.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__iterator/ranges_iterator_traits.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__node_handle:
-/opt/homebrew/include/SFML/Graphics/Image.hpp:
-/opt/homebrew/include/SFML/Graphics/RectangleShape.hpp:
-/opt/homebrew/include/SFML/Graphics/RenderTarget.hpp:
-/opt/homebrew/include/SFML/Graphics/View.hpp:
-/opt/homebrew/include/SFML/Graphics/RenderTexture.hpp:
-/opt/homebrew/include/SFML/Window/ContextSettings.hpp:
-/opt/homebrew/include/SFML/Graphics/RenderWindow.hpp:
-/opt/homebrew/include/SFML/Window/VideoMode.hpp:
-/opt/homebrew/include/SFML/Window/Window.hpp:
-/opt/homebrew/include/SFML/Window/WindowBase.hpp:
-/opt/homebrew/include/SFML/Window/Vulkan.hpp:
-/opt/homebrew/include/SFML/Window/WindowEnums.hpp:
-/opt/homebrew/include/SFML/Window/WindowHandle.hpp:
-/opt/homebrew/include/SFML/System/Time.hpp:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/chrono:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__chrono/high_resolution_clock.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__chrono/steady_clock.h:
@@ -1684,12 +1723,6 @@ src/headers/controller.hpp:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__math/modulo.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__math/remainder.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__math/trigonometric_functions.h:
-/opt/homebrew/include/SFML/System/Time.inl:
-/opt/homebrew/include/SFML/Window/WindowBase.inl:
-/opt/homebrew/include/SFML/Window/Event.hpp:
-/opt/homebrew/include/SFML/Window/Joystick.hpp:
-/opt/homebrew/include/SFML/System/String.hpp:
-/opt/homebrew/include/SFML/System/Utf.hpp:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/locale:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__locale_dir/messages.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/nl_types.h:
@@ -1731,8 +1764,6 @@ src/headers/controller.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__locale_dir/wbuffer_convert.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__locale_dir/wstring_convert.h:
-/opt/homebrew/include/SFML/System/Utf.inl:
-/opt/homebrew/include/SFML/System/String.inl:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/iterator:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__iterator/front_insert_iterator.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__iterator/insert_iterator.h:
@@ -1753,11 +1784,6 @@ src/headers/controller.hpp:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/concepts:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__ranges/rbegin.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__ranges/rend.h:
-/opt/homebrew/include/SFML/Window/Keyboard.hpp:
-/opt/homebrew/include/SFML/Window/Mouse.hpp:
-/opt/homebrew/include/SFML/Window/Sensor.hpp:
-/opt/homebrew/include/SFML/System/Vector3.hpp:
-/opt/homebrew/include/SFML/System/Vector3.inl:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/type_traits:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__type_traits/aligned_storage.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__type_traits/aligned_union.h:
@@ -1777,35 +1803,13 @@ src/headers/controller.hpp:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__type_traits/is_aggregate.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__type_traits/is_implicit_lifetime.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__type_traits/reference_converts_from_temporary.h:
-/opt/homebrew/include/SFML/Window/Event.inl:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/utility:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/rel_ops.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/as_const.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/cmp.h:
-/opt/homebrew/include/SFML/System/Clock.hpp:
-/opt/homebrew/include/SFML/Graphics/Shader.hpp:
-/opt/homebrew/include/SFML/Graphics/Glsl.hpp:
-/opt/homebrew/include/SFML/Graphics/Glsl.inl:
-/opt/homebrew/include/SFML/Graphics/Sprite.hpp:
-/opt/homebrew/include/SFML/Graphics/Text.hpp:
-/opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp:
-/opt/homebrew/include/SFML/Window.hpp:
-/opt/homebrew/include/SFML/Window/Clipboard.hpp:
-/opt/homebrew/include/SFML/Window/Context.hpp:
-/opt/homebrew/include/SFML/Window/Cursor.hpp:
-/opt/homebrew/include/SFML/Window/Touch.hpp:
-/opt/homebrew/include/SFML/System.hpp:
-/opt/homebrew/include/SFML/System/Err.hpp:
-/opt/homebrew/include/SFML/System/Exception.hpp:
-/opt/homebrew/include/SFML/System/FileInputStream.hpp:
-/opt/homebrew/include/SFML/System/InputStream.hpp:
-/opt/homebrew/include/SFML/System/MemoryInputStream.hpp:
-/opt/homebrew/include/SFML/System/Sleep.hpp:
+src/controller/main.cpp:
+src/headers/controller.hpp:
+../cppEngine/include/CppEngine/controller.hpp:
 ../cppEngine/include/CppEngine/imgui.h:
-../cppEngine/include/CppEngine/imconfig.h:
-/opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h:
-/opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h:
-/opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_float.h:
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/stddef.h:
+../cppEngine/include/CppEngine/scene.hpp:
 ../cppEngine/include/CppEngine/globals.hpp:
