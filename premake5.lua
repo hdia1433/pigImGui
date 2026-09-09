@@ -64,6 +64,7 @@ project "pigImGui"
             "cp /opt/homebrew/Cellar/sfml/3.0.1/lib/libsfml-graphics.3.0.1.dylib bin/%{cfg.buildcfg}/pigImGui.app/Contents/Frameworks/",
             "cp /opt/homebrew/Cellar/sfml/3.0.1/lib/libsfml-window.3.0.1.dylib bin/%{cfg.buildcfg}/pigImGui.app/Contents/Frameworks/",
             "cp /opt/homebrew/Cellar/sfml/3.0.1/lib/libsfml-system.3.0.1.dylib bin/%{cfg.buildcfg}/pigImGui.app/Contents/Frameworks/",
+            "cp ~/cppProjects/cppEngine/build/obj/libCppEngine.dylib bin/%{cfg.buildcfg}/pigImGui.app/Contents/Frameworks/"
         }
 
     filter {}

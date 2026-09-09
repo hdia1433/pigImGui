@@ -902,7 +902,29 @@ bin-int/Debug/sessionCreator.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/as_const.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/cmp.h \
   src/model/scenes/sessionCreator.cpp src/headers/sessionCreator.hpp \
-  ../cppEngine/include/CppEngine/scene.hpp
+  ../cppEngine/include/CppEngine/scene.hpp \
+  ../cppEngine/include/CppEngine/button.hpp \
+  ../cppEngine/include/CppEngine/uiElement.hpp \
+  ../cppEngine/include/CppEngine/imgui.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/functional \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/binary_negate.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/binder1st.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/binder2nd.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/mem_fn.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/mem_fun_ref.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/pointer_to_binary_function.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/pointer_to_unary_function.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/unary_negate.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/function.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__type_traits/strip_signature.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/boyer_moore_searcher.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/default_searcher.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/search.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/not_fn.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_back.h \
+  /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_front.h \
+  ../cppEngine/include/CppEngine/popupMenu.hpp
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
 /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui.h:
 /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imconfig.h:
@@ -1807,3 +1829,25 @@ bin-int/Debug/sessionCreator.o: \
 src/model/scenes/sessionCreator.cpp:
 src/headers/sessionCreator.hpp:
 ../cppEngine/include/CppEngine/scene.hpp:
+../cppEngine/include/CppEngine/button.hpp:
+../cppEngine/include/CppEngine/uiElement.hpp:
+../cppEngine/include/CppEngine/imgui.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/functional:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/binary_negate.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/binder1st.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/binder2nd.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/mem_fn.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/mem_fun_ref.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/pointer_to_binary_function.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/pointer_to_unary_function.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/unary_negate.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/function.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__type_traits/strip_signature.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/boyer_moore_searcher.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/default_searcher.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__algorithm/search.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/not_fn.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_back.h:
+/opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_front.h:
+../cppEngine/include/CppEngine/popupMenu.hpp:
