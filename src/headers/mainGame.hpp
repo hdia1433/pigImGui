@@ -1,6 +1,6 @@
 #pragma once
 
-#include <CppEngine/scene.hpp>
+#include <CppEngine/components/scene.hpp>
 
 class MainGame: public eng::Scene
 {

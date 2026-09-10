@@ -6,7 +6,7 @@
 #include <print>
 
 
-#include <CppEngine/imgui.h>
-#include <CppEngine/globals.hpp>
-#include <CppEngine/resource.hpp>
+#include <CppEngine/imgui/imgui.h>
+#include <CppEngine/backend/globals.hpp>
+#include <CppEngine/backend/resource.hpp>
 #include <SFML/Graphics.hpp>

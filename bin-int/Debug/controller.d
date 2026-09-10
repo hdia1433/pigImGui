@@ -1,10 +1,10 @@
 bin-int/Debug/controller.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json \
   /Users/heberdiamond/cppProjects/pigImGui/src/headers/pch.hpp \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui.h \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imconfig.h \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/globals.hpp \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/resource.hpp \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imgui.h \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imconfig.h \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/globals.hpp \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/resource.hpp \
   /opt/homebrew/include/SFML/Graphics.hpp \
   /opt/homebrew/include/SFML/Graphics/BlendMode.hpp \
   /opt/homebrew/include/SFML/Graphics/Export.hpp \
@@ -902,12 +902,15 @@ bin-int/Debug/controller.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/as_const.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/cmp.h \
   src/controller/controller.cpp src/headers/controller.hpp \
-  ../cppEngine/include/CppEngine/controller.hpp \
-  ../cppEngine/include/CppEngine/imgui.h \
-  ../cppEngine/include/CppEngine/scene.hpp \
-  ../cppEngine/include/CppEngine/globals.hpp src/headers/mainMenu.hpp \
-  ../cppEngine/include/CppEngine/button.hpp \
-  ../cppEngine/include/CppEngine/uiElement.hpp \
+  ../cppEngine/include/CppEngine/backend/controller.hpp \
+  ../cppEngine/include/CppEngine/backend/../imgui/imgui.h \
+  ../cppEngine/include/CppEngine/backend/../components/scene.hpp \
+  ../cppEngine/include/CppEngine/backend/globals.hpp \
+  src/headers/mainMenu.hpp \
+  ../cppEngine/include/CppEngine/components/scene.hpp \
+  ../cppEngine/include/CppEngine/uiElement/button.hpp \
+  ../cppEngine/include/CppEngine/uiElement/uiElement.hpp \
+  ../cppEngine/include/CppEngine/uiElement/../imgui/imgui.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/functional \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/binary_negate.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind.h \
@@ -928,12 +931,13 @@ bin-int/Debug/controller.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_front.h \
   src/headers/mainGame.hpp src/headers/sceneName.hpp \
   src/headers/sessionCreator.hpp \
-  ../cppEngine/include/CppEngine/popupMenu.hpp
+  ../cppEngine/include/CppEngine/uiElement/popupMenu.hpp \
+  src/headers/player.hpp
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui.h:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imconfig.h:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/globals.hpp:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/resource.hpp:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imgui.h:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imconfig.h:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/globals.hpp:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/resource.hpp:
 /opt/homebrew/include/SFML/Graphics.hpp:
 /opt/homebrew/include/SFML/Graphics/BlendMode.hpp:
 /opt/homebrew/include/SFML/Graphics/Export.hpp:
@@ -1832,13 +1836,15 @@ bin-int/Debug/controller.o: \
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/cmp.h:
 src/controller/controller.cpp:
 src/headers/controller.hpp:
-../cppEngine/include/CppEngine/controller.hpp:
-../cppEngine/include/CppEngine/imgui.h:
-../cppEngine/include/CppEngine/scene.hpp:
-../cppEngine/include/CppEngine/globals.hpp:
+../cppEngine/include/CppEngine/backend/controller.hpp:
+../cppEngine/include/CppEngine/backend/../imgui/imgui.h:
+../cppEngine/include/CppEngine/backend/../components/scene.hpp:
+../cppEngine/include/CppEngine/backend/globals.hpp:
 src/headers/mainMenu.hpp:
-../cppEngine/include/CppEngine/button.hpp:
-../cppEngine/include/CppEngine/uiElement.hpp:
+../cppEngine/include/CppEngine/components/scene.hpp:
+../cppEngine/include/CppEngine/uiElement/button.hpp:
+../cppEngine/include/CppEngine/uiElement/uiElement.hpp:
+../cppEngine/include/CppEngine/uiElement/../imgui/imgui.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/functional:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/binary_negate.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind.h:
@@ -1860,4 +1866,5 @@ src/headers/mainMenu.hpp:
 src/headers/mainGame.hpp:
 src/headers/sceneName.hpp:
 src/headers/sessionCreator.hpp:
-../cppEngine/include/CppEngine/popupMenu.hpp:
+../cppEngine/include/CppEngine/uiElement/popupMenu.hpp:
+src/headers/player.hpp:

@@ -76,6 +76,7 @@ define POSTBUILDCMDS
 	cp /opt/homebrew/Cellar/sfml/3.0.1/lib/libsfml-graphics.3.0.1.dylib bin/Release/pigImGui.app/Contents/Frameworks/
 	cp /opt/homebrew/Cellar/sfml/3.0.1/lib/libsfml-window.3.0.1.dylib bin/Release/pigImGui.app/Contents/Frameworks/
 	cp /opt/homebrew/Cellar/sfml/3.0.1/lib/libsfml-system.3.0.1.dylib bin/Release/pigImGui.app/Contents/Frameworks/
+	cp ~/cppProjects/cppEngine/build/obj/libCppEngine.dylib bin/Release/pigImGui.app/Contents/Frameworks/
 endef
 
 endif
@@ -95,6 +96,7 @@ GENERATED += $(OBJDIR)/main.o
 GENERATED += $(OBJDIR)/mainGame.o
 GENERATED += $(OBJDIR)/mainMenu.o
 GENERATED += $(OBJDIR)/pch.o
+GENERATED += $(OBJDIR)/player.o
 GENERATED += $(OBJDIR)/sceneName.o
 GENERATED += $(OBJDIR)/sessionCreator.o
 OBJECTS += $(OBJDIR)/controller.o
@@ -102,6 +104,7 @@ OBJECTS += $(OBJDIR)/main.o
 OBJECTS += $(OBJDIR)/mainGame.o
 OBJECTS += $(OBJDIR)/mainMenu.o
 OBJECTS += $(OBJDIR)/pch.o
+OBJECTS += $(OBJDIR)/player.o
 OBJECTS += $(OBJDIR)/sceneName.o
 OBJECTS += $(OBJDIR)/sessionCreator.o
 
@@ -174,6 +177,9 @@ $(OBJDIR)/main.o: src/controller/main.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) -include $(PCH_PLACEHOLDER) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
 $(OBJDIR)/pch.o: src/controller/pch.cpp
+	@echo "$(notdir $<)"
+	$(SILENT) $(CXX) -include $(PCH_PLACEHOLDER) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
+$(OBJDIR)/player.o: src/model/player.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) -include $(PCH_PLACEHOLDER) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
 $(OBJDIR)/sceneName.o: src/model/sceneName.cpp

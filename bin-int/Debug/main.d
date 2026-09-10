@@ -1,10 +1,10 @@
 bin-int/Debug/main.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json \
   /Users/heberdiamond/cppProjects/pigImGui/src/headers/pch.hpp \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui.h \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imconfig.h \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/globals.hpp \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/resource.hpp \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imgui.h \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imconfig.h \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/globals.hpp \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/resource.hpp \
   /opt/homebrew/include/SFML/Graphics.hpp \
   /opt/homebrew/include/SFML/Graphics/BlendMode.hpp \
   /opt/homebrew/include/SFML/Graphics/Export.hpp \
@@ -902,15 +902,15 @@ bin-int/Debug/main.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/as_const.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/cmp.h \
   src/controller/main.cpp src/headers/controller.hpp \
-  ../cppEngine/include/CppEngine/controller.hpp \
-  ../cppEngine/include/CppEngine/imgui.h \
-  ../cppEngine/include/CppEngine/scene.hpp \
-  ../cppEngine/include/CppEngine/globals.hpp
+  ../cppEngine/include/CppEngine/backend/controller.hpp \
+  ../cppEngine/include/CppEngine/backend/../imgui/imgui.h \
+  ../cppEngine/include/CppEngine/backend/../components/scene.hpp \
+  ../cppEngine/include/CppEngine/backend/globals.hpp
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui.h:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imconfig.h:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/globals.hpp:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/resource.hpp:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imgui.h:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imconfig.h:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/globals.hpp:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/resource.hpp:
 /opt/homebrew/include/SFML/Graphics.hpp:
 /opt/homebrew/include/SFML/Graphics/BlendMode.hpp:
 /opt/homebrew/include/SFML/Graphics/Export.hpp:
@@ -1809,7 +1809,7 @@ bin-int/Debug/main.o: \
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/cmp.h:
 src/controller/main.cpp:
 src/headers/controller.hpp:
-../cppEngine/include/CppEngine/controller.hpp:
-../cppEngine/include/CppEngine/imgui.h:
-../cppEngine/include/CppEngine/scene.hpp:
-../cppEngine/include/CppEngine/globals.hpp:
+../cppEngine/include/CppEngine/backend/controller.hpp:
+../cppEngine/include/CppEngine/backend/../imgui/imgui.h:
+../cppEngine/include/CppEngine/backend/../components/scene.hpp:
+../cppEngine/include/CppEngine/backend/globals.hpp:

@@ -619,8 +619,8 @@ bin-int/Debug/pch.hpp.gch: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__format/formatter_tuple.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/print \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__system_error/throw_system_error.h \
-  ../cppEngine/include/CppEngine/imgui.h \
-  ../cppEngine/include/CppEngine/imconfig.h \
+  ../cppEngine/include/CppEngine/imgui/imgui.h \
+  ../cppEngine/include/CppEngine/imgui/imconfig.h \
   /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h \
   /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h \
@@ -628,8 +628,8 @@ bin-int/Debug/pch.hpp.gch: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_static_assert.h \
-  ../cppEngine/include/CppEngine/globals.hpp \
-  ../cppEngine/include/CppEngine/resource.hpp \
+  ../cppEngine/include/CppEngine/backend/globals.hpp \
+  ../cppEngine/include/CppEngine/backend/resource.hpp \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/filesystem \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/copy_options.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/directory_entry.h \
@@ -1522,8 +1522,8 @@ bin-int/Debug/pch.hpp.gch: \
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__format/formatter_tuple.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/print:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__system_error/throw_system_error.h:
-../cppEngine/include/CppEngine/imgui.h:
-../cppEngine/include/CppEngine/imconfig.h:
+../cppEngine/include/CppEngine/imgui/imgui.h:
+../cppEngine/include/CppEngine/imgui/imconfig.h:
 /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/float.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/float.h:
 /opt/homebrew/Cellar/llvm/23.1.0/lib/clang/23/include/__float_header_macro.h:
@@ -1531,8 +1531,8 @@ bin-int/Debug/pch.hpp.gch: \
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/assert.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_assert.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/_static_assert.h:
-../cppEngine/include/CppEngine/globals.hpp:
-../cppEngine/include/CppEngine/resource.hpp:
+../cppEngine/include/CppEngine/backend/globals.hpp:
+../cppEngine/include/CppEngine/backend/resource.hpp:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/filesystem:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/copy_options.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__filesystem/directory_entry.h:

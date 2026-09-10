@@ -1,7 +1,7 @@
 #pragma once
 
-#include <CppEngine/scene.hpp>
-#include <CppEngine/button.hpp>
+#include <CppEngine/components/scene.hpp>
+#include <CppEngine/uiElement/button.hpp>
 
 class MainMenu: public eng::Scene
 {

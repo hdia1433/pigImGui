@@ -1,6 +1,6 @@
 #include "mainMenu.hpp"
 #include "sceneName.hpp"
-#include <CppEngine/imgui-SFML.h>
+#include <CppEngine/imgui/imgui-SFML.h>
 
 MainMenu::MainMenu():
     pigLogo(eng::Resource::getResourcePath("images/PigLogo.png")),

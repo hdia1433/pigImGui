@@ -1,10 +1,10 @@
 bin-int/Debug/mainMenu.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json \
   /Users/heberdiamond/cppProjects/pigImGui/src/headers/pch.hpp \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui.h \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imconfig.h \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/globals.hpp \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/resource.hpp \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imgui.h \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imconfig.h \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/globals.hpp \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/resource.hpp \
   /opt/homebrew/include/SFML/Graphics.hpp \
   /opt/homebrew/include/SFML/Graphics/BlendMode.hpp \
   /opt/homebrew/include/SFML/Graphics/Export.hpp \
@@ -902,10 +902,10 @@ bin-int/Debug/mainMenu.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/as_const.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/cmp.h \
   src/model/scenes/mainMenu.cpp src/headers/mainMenu.hpp \
-  ../cppEngine/include/CppEngine/scene.hpp \
-  ../cppEngine/include/CppEngine/button.hpp \
-  ../cppEngine/include/CppEngine/uiElement.hpp \
-  ../cppEngine/include/CppEngine/imgui.h \
+  ../cppEngine/include/CppEngine/components/scene.hpp \
+  ../cppEngine/include/CppEngine/uiElement/button.hpp \
+  ../cppEngine/include/CppEngine/uiElement/uiElement.hpp \
+  ../cppEngine/include/CppEngine/uiElement/../imgui/imgui.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/functional \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/binary_negate.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind.h \
@@ -924,13 +924,14 @@ bin-int/Debug/mainMenu.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/not_fn.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_back.h \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_front.h \
-  src/headers/sceneName.hpp ../cppEngine/include/CppEngine/imgui-SFML.h \
-  ../cppEngine/include/CppEngine/imgui-SFML_export.h
+  src/headers/sceneName.hpp \
+  ../cppEngine/include/CppEngine/imgui/imgui-SFML.h \
+  ../cppEngine/include/CppEngine/imgui/imgui-SFML_export.h
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui.h:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imconfig.h:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/globals.hpp:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/resource.hpp:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imgui.h:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imconfig.h:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/globals.hpp:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/resource.hpp:
 /opt/homebrew/include/SFML/Graphics.hpp:
 /opt/homebrew/include/SFML/Graphics/BlendMode.hpp:
 /opt/homebrew/include/SFML/Graphics/Export.hpp:
@@ -1829,10 +1830,10 @@ bin-int/Debug/mainMenu.o: \
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/cmp.h:
 src/model/scenes/mainMenu.cpp:
 src/headers/mainMenu.hpp:
-../cppEngine/include/CppEngine/scene.hpp:
-../cppEngine/include/CppEngine/button.hpp:
-../cppEngine/include/CppEngine/uiElement.hpp:
-../cppEngine/include/CppEngine/imgui.h:
+../cppEngine/include/CppEngine/components/scene.hpp:
+../cppEngine/include/CppEngine/uiElement/button.hpp:
+../cppEngine/include/CppEngine/uiElement/uiElement.hpp:
+../cppEngine/include/CppEngine/uiElement/../imgui/imgui.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/functional:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/binary_negate.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind.h:
@@ -1852,5 +1853,5 @@ src/headers/mainMenu.hpp:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_back.h:
 /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__functional/bind_front.h:
 src/headers/sceneName.hpp:
-../cppEngine/include/CppEngine/imgui-SFML.h:
-../cppEngine/include/CppEngine/imgui-SFML_export.h:
+../cppEngine/include/CppEngine/imgui/imgui-SFML.h:
+../cppEngine/include/CppEngine/imgui/imgui-SFML_export.h:

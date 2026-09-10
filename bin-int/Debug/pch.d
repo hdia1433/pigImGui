@@ -1,10 +1,10 @@
 bin-int/Debug/pch.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json \
   /Users/heberdiamond/cppProjects/pigImGui/src/headers/pch.hpp \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui.h \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imconfig.h \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/globals.hpp \
-  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/resource.hpp \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imgui.h \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imconfig.h \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/globals.hpp \
+  /Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/resource.hpp \
   /opt/homebrew/include/SFML/Graphics.hpp \
   /opt/homebrew/include/SFML/Graphics/BlendMode.hpp \
   /opt/homebrew/include/SFML/Graphics/Export.hpp \
@@ -903,10 +903,10 @@ bin-int/Debug/pch.o: \
   /opt/homebrew/Cellar/llvm/23.1.0/bin/../include/c++/v1/__utility/cmp.h \
   src/controller/pch.cpp src/headers/pch.hpp
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/SDKSettings.json:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui.h:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imconfig.h:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/globals.hpp:
-/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/resource.hpp:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imgui.h:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/imgui/imconfig.h:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/globals.hpp:
+/Users/heberdiamond/cppProjects/pigImGui/../cppEngine/include/CppEngine/backend/resource.hpp:
 /opt/homebrew/include/SFML/Graphics.hpp:
 /opt/homebrew/include/SFML/Graphics/BlendMode.hpp:
 /opt/homebrew/include/SFML/Graphics/Export.hpp:

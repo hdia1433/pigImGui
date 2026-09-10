@@ -1,7 +1,7 @@
 #pragma once
 
-#include <CppEngine/controller.hpp>
-#include <CppEngine/globals.hpp>
+#include <CppEngine/backend/controller.hpp>
+#include <CppEngine/backend/globals.hpp>
 
 class Controller
 {
