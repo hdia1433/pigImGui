@@ -11,27 +11,28 @@ public:
     class AddPlayerPopup: public eng::PopupMenu
     {
     private:
-        SessionCreator& sessionCreator;
+        std::vector<Player>& players;
         std::string buffer;
         Player::PlayerType playerType;
-        std::vector<std::string> difficulties;
+        std::string difficulties[3];
         int difficultySelection;
-    public:
-        AddPlayerPopup(SessionCreator& sessionCreator);
 
-        void render() override;
+    public:
+        AddPlayerPopup(std::vector<Player>& players);
+
+    private:
+        void renderAddPlayerPopup();
     };
+
 private:
     eng::Button addPlayerButton;
-    AddPlayerPopup addPlayerPopup;
     std::vector<Player> players;
+    AddPlayerPopup addPlayerPopup;
 
 public:
     SessionCreator();
 
     void render() override;
-
-    void addPlayer(const Player& player);
 
 private:
     void onAddPlayer();
