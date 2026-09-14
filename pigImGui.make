@@ -28,10 +28,10 @@ ifeq ($(origin AR), default)
   AR = ar
 endif
 RESCOMP = windres
-PCH = src/headers/pch.hpp
+PCH = src/controller/pch.hpp
 PCH_PLACEHOLDER = $(OBJDIR)/$(notdir $(PCH))
 GCH = $(PCH_PLACEHOLDER).gch
-INCLUDES += -Isrc/headers -I/opt/homebrew/include -I../cppEngine/include
+INCLUDES += -Isrc/controller -Isrc/model -Isrc/model/scenes -Isrc/model/objects -I/opt/homebrew/include -I../cppEngine/include
 FORCE_INCLUDE +=
 ALL_CPPFLAGS += $(CPPFLAGS) -MD -MP $(DEFINES) $(INCLUDES)
 ALL_RESFLAGS += $(RESFLAGS) $(DEFINES) $(INCLUDES)
@@ -41,8 +41,8 @@ ALL_LDFLAGS += $(LDFLAGS) -L../cppEngine/build/obj -L/opt/homebrew/Cellar/sfml/3
 LINKCMD = $(CXX) -o "$@" $(OBJECTS) $(RESOURCES) $(ALL_LDFLAGS) $(LIBS)
 define PREBUILDCMDS
 	@echo Running prebuild commands
-	mkdir -p bin-int/Debug && cp src/headers/pch.hpp bin-int/Debug/pch.hpp
-	mkdir -p bin-int/Release && cp src/headers/pch.hpp bin-int/Release/pch.hpp
+	mkdir -p bin-int/Debug && cp src/controller/pch.hpp bin-int/Debug/pch.hpp
+	mkdir -p bin-int/Release && cp src/controller/pch.hpp bin-int/Release/pch.hpp
 endef
 define PRELINKCMDS
 endef
@@ -179,7 +179,7 @@ $(OBJDIR)/main.o: src/controller/main.cpp
 $(OBJDIR)/pch.o: src/controller/pch.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) -include $(PCH_PLACEHOLDER) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
-$(OBJDIR)/player.o: src/model/player.cpp
+$(OBJDIR)/player.o: src/model/objects/player.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) -include $(PCH_PLACEHOLDER) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
 $(OBJDIR)/sceneName.o: src/model/sceneName.cpp

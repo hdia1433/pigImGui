@@ -13,8 +13,8 @@ project "pigImGui"
     buildoptions { "-std=c++23" }
 
     prebuildcommands {
-        "mkdir -p bin-int/Debug && cp src/headers/pch.hpp bin-int/Debug/pch.hpp",
-        "mkdir -p bin-int/Release && cp src/headers/pch.hpp bin-int/Release/pch.hpp",
+        "mkdir -p bin-int/Debug && cp src/controller/pch.hpp bin-int/Debug/pch.hpp",
+        "mkdir -p bin-int/Release && cp src/controller/pch.hpp bin-int/Release/pch.hpp",
     }
 
     files {
@@ -26,7 +26,7 @@ project "pigImGui"
     libdirs { os.getenv("HOME") .. "/cppProjects/cppEngine/build/obj" }
 
     includedirs {
-        "src/headers",
+        "src/**",
         "/opt/homebrew/include",
         os.getenv("HOME") .. "/cppProjects/cppEngine/include"
     }
@@ -38,7 +38,7 @@ project "pigImGui"
         "CppEngine"
     }
 
-    pchheader "src/headers/pch.hpp"
+    pchheader "src/controller/pch.hpp"
     pchsource "src/controller/pch.cpp"
 
     filter "system:macosx"

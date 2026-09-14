@@ -1,6 +1,6 @@
 #pragma once
 
-#include <CppEngine/components/scene.hpp>
+#include <CppEngine/parents/scene.hpp>
 #include <CppEngine/uiElement/button.hpp>
 
 class MainMenu: public eng::Scene
